@@ -18,5 +18,10 @@ jobs:
       - name: 'Printing'
         run: echo Logy
 
-      - name: 'Printing folder contents'
+      - name: 'Printing folder contents Before'
+        run: ls
+
+      - uses: actions/checkout@v3
+
+      - name: 'Printing folder contents After'
         run: ls
