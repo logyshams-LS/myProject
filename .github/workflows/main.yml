@@ -25,3 +25,6 @@ jobs:
 
       - name: 'Printing folder contents After'
         run: ls
+
+      - name: "Login to Dockerhub"
+        run: docker login --username logyshams --password dckr_pat_2UxscNBWHAKL6dE1dWn36kT_8PQ
