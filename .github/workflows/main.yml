@@ -17,3 +17,6 @@ jobs:
 
       - name: 'Printing'
         run: echo Logy
+
+      - name: 'Printing folder contents'
+        run: ls
